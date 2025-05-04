@@ -1,0 +1,33 @@
+{
+  "name": "42-cent-mollie",
+  "version": "1.0.0",
+  "description": "Mollie payment gateway for 42-cent",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/**/*.js"
+  },
+  "keywords": [
+    "42-cent",
+    "payment",
+    "gateway",
+    "mollie",
+    "credit card",
+    "payment processing"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/continuous-software/42-cent-mollie.git"
+  },
+  "author": "Continuous Software",
+  "license": "MIT",
+  "dependencies": {
+    "@mollie/api-client": "^4.3.1",
+    "42-cent-base": "^1.0.1",
+    "42-cent-model": "^2.0.2"
+  },
+  "devDependencies": {
+    "chai": "^4.5.0",
+    "chai-as-promised": "^7.1.2",
+    "mocha": "^10.8.2"
+  }
+}
